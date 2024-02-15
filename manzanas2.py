@@ -1,0 +1,6 @@
+print("Hola, buen día") 
+costo = float(input("¿Qué costo tienen hoy las manzanas? "))
+cantidad = float(input("¿Cuantas manzanas vendiste? "))
+print("Hoy vendiste", costo*cantidad, "pesos")
+print("Hoy vendiste " + str(costo*cantidad) + "pesos")
+print(f"Hoy vendiste {costo*cantidad} pesos")
